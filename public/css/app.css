@@ -54,3 +54,13 @@
   margin-left: 20px;
 }
 
+.jumbotron {
+  width: 100%;
+  height: 400px;
+  overflow: hidden;
+}
+
+.jumbotron img {
+  width: 100%;
+}
+

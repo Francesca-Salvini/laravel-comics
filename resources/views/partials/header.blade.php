@@ -23,6 +23,7 @@
                 <img src="{{ asset('img/dc-logo.png')}}" alt="DC Logo">
             </div>
 
+            <!-- nav -->
             <div class="nav">
                 <ul class="menu">
                     <li>
@@ -59,6 +60,12 @@
 
                 <input type="text" placeholder="Search">
             </div>
+            <!--end nav -->
         </div>
+    </div>
+    <!--end navbar + logo -->
+
+    <div class="jumbotron">
+        <img src="{{ asset('img/jumbotron.jpg')}}" alt="">
     </div>
 </header>
