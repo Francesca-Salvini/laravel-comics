@@ -1,0 +1,20 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+
+    .logo-container img {
+        padding: 20px 0;
+    }
+    .nav {
+        align-self: center;
+        display: flex;
+
+        input {
+            text-align: right;
+            border: none;
+            border-bottom: 2px solid $dc_main_color;
+            width: 110px;
+            margin-left: 20px;
+        }
+    }
+}

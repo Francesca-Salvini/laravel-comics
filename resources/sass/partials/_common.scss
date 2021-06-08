@@ -15,21 +15,27 @@
 
 .blue-section {
     background-color: $dc_main_color;
-    
+}
 
-    ul {
-        display: flex;
-        justify-content: flex-end;
-        list-style-type: none;
-        padding: 5px;
-        li {
-            
-            a {
-                color: $dc_text_and_nav;
-                text-decoration: none;
-                text-transform: uppercase;
-                margin-left: 50px;
-            }
+.menu {
+    display: flex;
+    justify-content: flex-end;
+    list-style-type: none;
+    padding: 5px;
+    li {
+        
+        a {
+            color: $dc_text_and_nav;
+            text-decoration: none;
+            text-transform: uppercase;
+            margin-left: 50px;
         }
+    }
+}
+
+.nav .menu {
+    a {
+        color: $dc_secondary_color;
+        font-size: 13px;
     }
 }

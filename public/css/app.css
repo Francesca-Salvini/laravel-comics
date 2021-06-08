@@ -13,17 +13,44 @@
   background-color: #0082f9;
 }
 
-.blue-section ul {
+.menu {
   display: flex;
   justify-content: flex-end;
   list-style-type: none;
   padding: 5px;
 }
 
-.blue-section ul li a {
+.menu li a {
   color: #ffffff;
   text-decoration: none;
   text-transform: uppercase;
   margin-left: 50px;
+}
+
+.nav .menu a {
+  color: #1d1d1d;
+  font-size: 13px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar .logo-container img {
+  padding: 20px 0;
+}
+
+.navbar .nav {
+  align-self: center;
+  display: flex;
+}
+
+.navbar .nav input {
+  text-align: right;
+  border: none;
+  border-bottom: 2px solid #0082f9;
+  width: 110px;
+  margin-left: 20px;
 }
 
