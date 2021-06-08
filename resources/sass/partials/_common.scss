@@ -39,3 +39,17 @@
         font-size: 13px;
     }
 }
+
+// FOOTER MENU
+
+.footer-menu {
+    ul {
+        list-style-type: none;
+        li {
+            a {
+                color: white;
+                text-decoration: none;
+            }
+        }
+    }
+}
