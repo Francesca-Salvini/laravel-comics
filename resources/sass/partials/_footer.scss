@@ -27,6 +27,8 @@
 
                     &#white-txt {
                         color: $dc_text_and_nav;
+                        font-family: 'Open Sans Condensed', sans-serif;
+                        font-weight: 700;
                     }
                 }
             }
@@ -37,7 +39,8 @@
 
     .rights {
         position: absolute;
-        bottom: 130px;
+        bottom: 40px;
+        font-size: 13px;
 
         p {
             color: $dc_links_in_footer;
@@ -56,3 +59,37 @@
     }
 }
 
+.footer-buttons {
+    background-color: $dc_footer_icons_bg;
+    
+    .wrapper {
+        display: flex;
+        justify-content: space-between;
+        padding: 25px 0;
+        .social-icons {
+            align-self: center;
+            display: flex;
+            h5 {
+                text-transform: uppercase;
+                color: $dc_main_color;
+                font-size: 15px;
+                align-self: center;
+                margin-right: 20px;
+                font-family: 'Open Sans Condensed', sans-serif;
+            }
+            img {
+                margin: 0 7px;
+            }
+        }
+    }
+
+    button {
+        border: 2px solid $dc_main_color;
+        font-size: 12px;
+        text-transform: uppercase;
+        color: $dc_text_and_nav;
+        background-color: $dc_footer_icons_bg;
+        padding: 6px;
+        cursor: pointer;
+    }
+}

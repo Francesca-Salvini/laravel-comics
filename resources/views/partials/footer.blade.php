@@ -94,7 +94,6 @@
 
                 <!-- SITES -->
 
-                <!-- SHOP -->
                 <ul class="footer-menu">
                     <li>
                         <a id="white-txt" href="#">SITES</a>
@@ -133,5 +132,21 @@
         </div>
     </div>
 
-    
+    <!-- sign up now + socials -->
+
+    <div class="footer-buttons">
+        <div class="wrapper">
+            <button>sign-up now!</button>
+
+            <div class="social-icons">
+                <h5>follow us</h5>
+                <img src="{{ asset('img/footer-facebook.png')}}" alt="">
+                <img src="{{ asset('img/footer-twitter.png')}}" alt="">
+                <img src="{{ asset('img/footer-youtube.png')}}" alt="">
+                <img src="{{ asset('img/footer-pinterest.png')}}" alt="">
+                <img src="{{ asset('img/footer-periscope.png')}}" alt="">
+            </div>
+        </div>
+        
+    </div>
 </footer>
