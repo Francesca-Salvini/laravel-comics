@@ -22,3 +22,10 @@ Route::get('/', function () {
 
     return view('home', $data);
 })->name('home');
+
+
+Route::get('/fumetto', function () {
+    
+
+    return view('fumetto');
+})->name('fumetto');

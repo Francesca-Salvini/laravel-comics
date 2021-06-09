@@ -1,5 +1,9 @@
 @extends('layouts.app')
 
+@section("tag_title")
+    Homepage
+@endsection
+
 @section('main_content')
     <section class="products-list">
         <div class="wrapper">
