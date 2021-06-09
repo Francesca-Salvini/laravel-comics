@@ -1,6 +1,6 @@
 .products-list {
     background-color: $dc_main_homepage_bg;
-
+    position: relative;
     .wrapper {
         .comics {
             display: flex;
@@ -27,6 +27,45 @@
             display: flex;
             justify-content: center;
             padding: 30px;
+
+            #current {
+                padding: 6px 15px;
+                font-size: 30px;
+                position: absolute;
+                top: -25px;
+                left: 215px;
+            }
         }
     }
+}
+
+// BLUE SECTION 
+
+.blue-bg-sect {
+    background-color: $dc_main_color;
+
+    .wrapper {
+        display: flex;
+        justify-content: space-around;
+        .white-icon {
+            display: flex;
+            align-self: center;
+            img {
+                width: 20%;
+                height: min-content;
+                padding: 50px 0;
+            }
+    
+            h5 {
+                color: $dc_text_and_nav;
+                text-transform: uppercase;
+                font-weight: 300;
+                align-self: center;
+                padding: 0 30px;
+            
+            }
+        }
+    }
+
+    
 }
