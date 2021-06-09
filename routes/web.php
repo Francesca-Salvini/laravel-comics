@@ -24,8 +24,25 @@ Route::get('/', function () {
 })->name('home');
 
 
-Route::get('/fumetto', function () {
+Route::get('/fumetto/{id}', function ($id) {
     
+    $comics_array = config('comics');
 
-    return view('fumetto');
+    $fumetto = []; 
+
+    foreach($comics_array as $item) {
+        if($item['id'] === $id) {
+            $fumetto = $item;
+        }
+    }
+
+    // if(empty($fumetto)){
+    //     abort('404');
+    // }
+
+    $data = [ 
+        'fumetto' => $fumetto
+    ];
+
+    return view('fumetto', $data);
 })->name('fumetto');
